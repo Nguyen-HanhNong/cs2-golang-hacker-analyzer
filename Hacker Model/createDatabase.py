@@ -43,7 +43,7 @@ def createDatabaseFolder(data: list):
       subprocess.run(["python3", "parseGameData.py", str(steamID), str(1), str(isHacker)])
 
 # Reset the databases
-# resetDatabases()
+resetDatabases()
 
 with open("input_file.json", 'r') as json_file:
   data = json.load(json_file)
@@ -58,14 +58,15 @@ last50DataPoints = data[numberOfDataPoints * 4:]
 
 # Create the databases folder
 createDatabaseFolder(first50DataPoints)
-# createDatabaseFolder(second50DataPoints)
+createDatabaseFolder(second50DataPoints)
+
 # createDatabaseFolder(third50DataPoints)
 # createDatabaseFolder(fourth50DataPoints)
 # createDatabaseFolder(last50DataPoints)
 
 # Merge the SQLite databases
-# print(f"Merging databases")
-# if os.name == 'nt':
-#   subprocess.run(["python", "mergeDatabase.py"])
-# else:
-#   subprocess.run(["python3", "mergeDatabase.py"])
+print(f"Merging databases")
+if os.name == 'nt':
+  subprocess.run(["python", "mergeDatabase.py"])
+else:
+  subprocess.run(["python3", "mergeDatabase.py"])

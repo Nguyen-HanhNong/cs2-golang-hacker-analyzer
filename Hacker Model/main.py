@@ -38,8 +38,6 @@ def grantPermissions(directory):
   except Exception as e:
     print(f"Failed to change permissions for root directory: {directory}. Error: {e}")
 
-
-
 def main(steamID: str):
   # Delete the databases folder if it exists
   currentFilePath = os.path.abspath(__file__)
