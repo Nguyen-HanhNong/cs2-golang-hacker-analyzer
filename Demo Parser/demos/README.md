@@ -1,0 +1,1 @@
+Put your CS2 demo's in this folder

@@ -1,0 +1,7 @@
+# Ignore database folder
+databases/
+__pycache__
+.DS_Store
+/performance
+/models
+auth.json

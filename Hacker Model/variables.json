@@ -1,0 +1,13 @@
+[
+    "kills",
+    "deaths",
+    "assists",
+    "adr",
+    "headshot_percentage",
+    "rating",
+    "number_of_5k",
+    "number_of_4k",
+    "number_of_3k",
+    "number_of_2k",
+    "number_of_1k"
+]
