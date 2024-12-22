@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a tool that can be used to determine if a player is cheating in the game Counter-Strike: Global Offensive. The tool uses machine learning models to analyze the player's statistics and determine if they are cheating. The tool takes the player's Steam ID as input and outputs whether or not the player is cheating. It uses Golang to scrape the important data from the player's profile and Python to analyze the data using machine learning models.
+This project is a tool that can be used to determine if a player is cheating in the game Counter-Strike 2. The tool uses machine learning models to analyze the player's statistics and determine if they are cheating. The tool takes the player's Steam ID as input and outputs whether or not the player is cheating. It uses Golang to scrape the important data from the player's profile and Python to analyze the data using machine learning models.
 
 ## Languages/Libraries used in the project
 - [Playwright](https://playwright.dev/python/docs/intro) - Playwright is a Python library that allows you to automate web browsers.
